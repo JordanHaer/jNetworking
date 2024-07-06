@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'jNetworking'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
 
   s.summary          = 'A network manager'
   s.description      = 'A network manager to make api calls'
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '17.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'jNetworking/Source/**/*'
+  s.source_files = 'jNetworking/**/*'
 end
