@@ -3,7 +3,6 @@ platform :ios, '17.0'
 use_frameworks!
 
 target 'jNetworking' do
-  pod 'SwiftyBeaver', '2.1.1'
 end
 
 target 'jNetworkingTests' do

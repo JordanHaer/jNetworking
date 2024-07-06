@@ -160,7 +160,6 @@
 				F0E890EF2C393982008C17CF /* Sources */,
 				F0E890F02C393982008C17CF /* Frameworks */,
 				F0E890F12C393982008C17CF /* Resources */,
-				04DA8964B4EACAB2462E4EAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,23 +226,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04DA8964B4EACAB2462E4EAA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jNetworkingTests/Pods-jNetworkingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jNetworkingTests/Pods-jNetworkingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jNetworkingTests/Pods-jNetworkingTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		14A5097F6E57F34348E419BE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
