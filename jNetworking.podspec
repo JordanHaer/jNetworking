@@ -9,6 +9,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jordan Haer' => 'jordanhaer@gmail.com' }
   s.source           = { :git => 'https://github.com/jordanhaer/jNetworking.git', :tag => s.version.to_s }
+  
+  s.dependency 'SwiftyBeaver', '2.1.1'
 
   s.ios.deployment_target = '17.0'
   s.swift_version = '5.0'
