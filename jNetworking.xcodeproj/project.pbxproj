@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70D5B55FB5974862EB3B5018 /* Pods_jNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D9889E244C5739322CF2EF /* Pods_jNetworking.framework */; };
+		7A2C97AC92B13D5F20C289EC /* Pods_jNetworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4249B82E39E6CC991C35A1 /* Pods_jNetworkingTests.framework */; };
+		F0C552742C399E14000DD576 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C552732C399E14000DD576 /* NetworkManagerTests.swift */; };
 		F0E890F42C393982008C17CF /* jNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E890E92C393982008C17CF /* jNetworking.framework */; };
 		F0E890FA2C393982008C17CF /* jNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E890EC2C393982008C17CF /* jNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0E891052C393C5D008C17CF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E891042C393C5D008C17CF /* NetworkManager.swift */; };
-		F0F0682F2C39512F002A1A7B /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0682E2C39512F002A1A7B /* NetworkManagerTests.swift */; };
+		F976A9396E5340A6D41041F3 /* Pods_jNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0922AE20FB58AC189F33B023 /* Pods_jNetworking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,13 +26,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0922AE20FB58AC189F33B023 /* Pods_jNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24846A8E7723FCB8CA792A7A /* Pods-jNetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jNetworkingTests.debug.xcconfig"; path = "Target Support Files/Pods-jNetworkingTests/Pods-jNetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4249B82E39E6CC991C35A1 /* Pods_jNetworkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jNetworkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F42DF949D302D1E20770A66 /* Pods-jNetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jNetworkingTests.release.xcconfig"; path = "Target Support Files/Pods-jNetworkingTests/Pods-jNetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
 		7019EF0DCBF05CE3A03AEF92 /* Pods-jNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jNetworking.release.xcconfig"; path = "Target Support Files/Pods-jNetworking/Pods-jNetworking.release.xcconfig"; sourceTree = "<group>"; };
-		E3D9889E244C5739322CF2EF /* Pods_jNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C5526C2C399A31000DD576 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C552732C399E14000DD576 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		F0E890E92C393982008C17CF /* jNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E890EC2C393982008C17CF /* jNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jNetworking.h; sourceTree = "<group>"; };
 		F0E890F32C393982008C17CF /* jNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E891042C393C5D008C17CF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		F0F0682E2C39512F002A1A7B /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		FC5B19EAD86AAEA0CC784B09 /* Pods-jNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jNetworking.debug.xcconfig"; path = "Target Support Files/Pods-jNetworking/Pods-jNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D5B55FB5974862EB3B5018 /* Pods_jNetworking.framework in Frameworks */,
+				F976A9396E5340A6D41041F3 /* Pods_jNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0E890F42C393982008C17CF /* jNetworking.framework in Frameworks */,
+				7A2C97AC92B13D5F20C289EC /* Pods_jNetworkingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +66,8 @@
 			children = (
 				FC5B19EAD86AAEA0CC784B09 /* Pods-jNetworking.debug.xcconfig */,
 				7019EF0DCBF05CE3A03AEF92 /* Pods-jNetworking.release.xcconfig */,
+				24846A8E7723FCB8CA792A7A /* Pods-jNetworkingTests.debug.xcconfig */,
+				6F42DF949D302D1E20770A66 /* Pods-jNetworkingTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -96,7 +104,7 @@
 		F0E890F72C393982008C17CF /* jNetworkingTests */ = {
 			isa = PBXGroup;
 			children = (
-				F0F0682E2C39512F002A1A7B /* NetworkManagerTests.swift */,
+				F0C552732C399E14000DD576 /* NetworkManagerTests.swift */,
 			);
 			path = jNetworkingTests;
 			sourceTree = "<group>";
@@ -104,7 +112,9 @@
 		FA08C08AE556DDFDAB324AF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E3D9889E244C5739322CF2EF /* Pods_jNetworking.framework */,
+				F0C5526C2C399A31000DD576 /* SwiftyBeaver.framework */,
+				0922AE20FB58AC189F33B023 /* Pods_jNetworking.framework */,
+				4D4249B82E39E6CC991C35A1 /* Pods_jNetworkingTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,7 +142,6 @@
 				F0E890E52C393982008C17CF /* Sources */,
 				F0E890E62C393982008C17CF /* Frameworks */,
 				F0E890E72C393982008C17CF /* Resources */,
-				F0E891062C3940CA008C17CF /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -147,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0E891002C393982008C17CF /* Build configuration list for PBXNativeTarget "jNetworkingTests" */;
 			buildPhases = (
+				14A5097F6E57F34348E419BE /* [CP] Check Pods Manifest.lock */,
 				F0E890EF2C393982008C17CF /* Sources */,
 				F0E890F02C393982008C17CF /* Frameworks */,
 				F0E890F12C393982008C17CF /* Resources */,
+				04DA8964B4EACAB2462E4EAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +227,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04DA8964B4EACAB2462E4EAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jNetworkingTests/Pods-jNetworkingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jNetworkingTests/Pods-jNetworkingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jNetworkingTests/Pods-jNetworkingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14A5097F6E57F34348E419BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jNetworkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9D29714FEBE77AF492142A13 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,25 +288,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F0E891062C3940CA008C17CF /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -272,7 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F0682F2C39512F002A1A7B /* NetworkManagerTests.swift in Sources */,
+				F0C552742C399E14000DD576 /* NetworkManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,14 +450,17 @@
 			baseConfigurationReference = FC5B19EAD86AAEA0CC784B09 /* Pods-jNetworking.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = XV35KG5989;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XV35KG5989;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -440,6 +474,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Haer.Jordan.jNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -457,14 +492,17 @@
 			baseConfigurationReference = 7019EF0DCBF05CE3A03AEF92 /* Pods-jNetworking.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = XV35KG5989;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XV35KG5989;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -478,6 +516,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Haer.Jordan.jNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -492,15 +531,20 @@
 		};
 		F0E891012C393982008C17CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24846A8E7723FCB8CA792A7A /* Pods-jNetworkingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XV35KG5989;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XV35KG5989;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Haer.Jordan.jNetworkingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haer.Jordan.jNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -513,15 +557,20 @@
 		};
 		F0E891022C393982008C17CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F42DF949D302D1E20770A66 /* Pods-jNetworkingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XV35KG5989;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XV35KG5989;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Haer.Jordan.jNetworkingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haer.Jordan.jNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

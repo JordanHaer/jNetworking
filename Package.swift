@@ -11,9 +11,13 @@ let package = Package(
             type: .dynamic,
             targets: ["jNetworking"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver.git", exact: "2.1.1")
+    ],
     targets: [
         .target(
             name: "jNetworking",
+            dependencies: ["SwiftyBeaver"],
             path: "./jNetworking"
         ),
         .testTarget(
