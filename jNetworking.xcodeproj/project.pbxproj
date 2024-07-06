@@ -10,9 +10,9 @@
 		70D5B55FB5974862EB3B5018 /* Pods_jNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D9889E244C5739322CF2EF /* Pods_jNetworking.framework */; };
 		F0E890EE2C393982008C17CF /* jNetworking.docc in Sources */ = {isa = PBXBuildFile; fileRef = F0E890ED2C393982008C17CF /* jNetworking.docc */; };
 		F0E890F42C393982008C17CF /* jNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E890E92C393982008C17CF /* jNetworking.framework */; };
-		F0E890F92C393982008C17CF /* jNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E890F82C393982008C17CF /* jNetworkingTests.swift */; };
 		F0E890FA2C393982008C17CF /* jNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E890EC2C393982008C17CF /* jNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0E891052C393C5D008C17CF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E891042C393C5D008C17CF /* NetworkManager.swift */; };
+		F0F0682F2C39512F002A1A7B /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0682E2C39512F002A1A7B /* NetworkManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +32,8 @@
 		F0E890EC2C393982008C17CF /* jNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jNetworking.h; sourceTree = "<group>"; };
 		F0E890ED2C393982008C17CF /* jNetworking.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = jNetworking.docc; sourceTree = "<group>"; };
 		F0E890F32C393982008C17CF /* jNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0E890F82C393982008C17CF /* jNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jNetworkingTests.swift; sourceTree = "<group>"; };
 		F0E891042C393C5D008C17CF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F0F0682E2C39512F002A1A7B /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		FC5B19EAD86AAEA0CC784B09 /* Pods-jNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jNetworking.debug.xcconfig"; path = "Target Support Files/Pods-jNetworking/Pods-jNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +89,7 @@
 		F0E890EB2C393982008C17CF /* jNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				F0E891032C393BA3008C17CF /* Source */,
+				F0E891042C393C5D008C17CF /* NetworkManager.swift */,
 				F0E890EC2C393982008C17CF /* jNetworking.h */,
 				F0E890ED2C393982008C17CF /* jNetworking.docc */,
 			);
@@ -99,17 +99,9 @@
 		F0E890F72C393982008C17CF /* jNetworkingTests */ = {
 			isa = PBXGroup;
 			children = (
-				F0E890F82C393982008C17CF /* jNetworkingTests.swift */,
+				F0F0682E2C39512F002A1A7B /* NetworkManagerTests.swift */,
 			);
 			path = jNetworkingTests;
-			sourceTree = "<group>";
-		};
-		F0E891032C393BA3008C17CF /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				F0E891042C393C5D008C17CF /* NetworkManager.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		FA08C08AE556DDFDAB324AF8 /* Frameworks */ = {
@@ -284,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0E890F92C393982008C17CF /* jNetworkingTests.swift in Sources */,
+				F0F0682F2C39512F002A1A7B /* NetworkManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
