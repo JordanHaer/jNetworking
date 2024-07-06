@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'jNetworking'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
 
   s.summary          = 'A network manager'
   s.description      = 'A network manager to make api calls'
